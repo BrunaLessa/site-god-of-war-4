@@ -1,0 +1,50 @@
+html {
+    color: white;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "poppins", sans-serif;
+    margin: 0;
+    /* Remova as margens padrão */
+    height: 100vh;
+    /* Defina a altura para 100% da viewport */
+    background: linear-gradient(110deg, rgba(47, 8, 109, 0.479), rgba(17, 186, 216, 0.3), #f0316a54 ), url("./imagem/fundo.jpg");
+    background-size: cover;
+    /* Ajuste a imagem para cobrir toda a tela */
+}
+
+header {
+    position: fixed;
+    background: linear-gradient(to right, black, #492768cc, #15e8eb91, #e956828f, #f0316aea);
+    box-shadow: 1px 1px 3px black;
+    width: 100%;
+    height: 40px;
+ 
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 15px;
+}
+
+.cabecalho .logo {
+    width: 65px;
+    height: 65px;
+    color: white;
+    border-radius: 50%;
+    border: 1px solid white;
+    text-decoration: underline;
+    text-align: center;
+    line-height: 55px;
+    font-family: "Raleway", sans-serif;
+    transition: 0.2s;
+}
+
+.cabecalho a:hover .logo {
+    color: #f0316b;
+    border: 1px solid #15e9eb;
+    box-shadow: 3px 3px 100px #e95682;
+}
+
